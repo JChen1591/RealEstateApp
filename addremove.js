@@ -24,8 +24,10 @@ submitButton.addEventListener("click", function() {
     let stateInput = stateSearch.value;
   
     const li = document.createElement("li");
-    li.textContent = addressSearch.value + propertySearch.value + citySearch.value + stateSearch.value;
-    
+    console.log(addressInput + propertyInput + cityInput + stateInput);
+    li.textContent = addressInput + propertyInput + cityInput + stateInput;
+    const ul = document.querySelector("ul");
+    ul.appendChild("li");
 });
 
 
