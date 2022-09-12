@@ -1,4 +1,4 @@
-//Users should be able to add/remove objects to an array by creating `input` elements, entering data into those elements, and pressing a "SUBMIT" `button`.
+∏//Users should be able to add/remove objects to an array by creating `input` elements, entering data into those elements, and pressing a "SUBMIT" `button`.
 //Array is responsive and rendered accurately in the browser window.
 //Can enter the street address, property type (house, apartment, loft, etc.), city, and state into `input` elements`.
 
