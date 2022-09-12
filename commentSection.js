@@ -9,6 +9,6 @@ commentBtn.addEventListener("click", () => {
 
     const sendBtn = document.createElement("button");
     sendBtn.addEventListener('cick', () => {
-        append.(this.input.value);
+        append(this.input.value);
     })
 })
