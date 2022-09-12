@@ -18,12 +18,14 @@ const stateSearch = document.querySelector(".state"); //state dropdown
 //Submit Button
 const submitButton = document.querySelector(".submit");
 submitButton.addEventListener("click", function() {
-    let addressInput = document.getElementsByClassName(".street-address").value;
-    function addAddress () {
-        houseData.address.push(addressInput);
-    }
-    console.log(address);
-        
+    let addressInput = addressSearch.value;
+    let propertyInput = propertySearch.value;
+    let cityInput = citySearch.value;
+    let stateInput = stateSearch.value;
+  
+    const li = document.createElement("li");
+    li.textContent = addressSearch.value + propertySearch.value + citySearch.value + stateSearch.value;
+    
 });
 
 
